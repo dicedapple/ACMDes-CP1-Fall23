@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <title>
+        How To Create a Tab Image Gallery
+    </title>
+</head>
+
+<body>
+    <!-- The grid: four columns -->
+    <div class="row">
+        <div class="column">
+            <img src="Elmo1.png" style="width:100%" alt="Elmo goes for a Ride" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Elmo2.png" style="width:100%" alt="Elmo Smiling" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Elmo3.png" style="width:100%" alt="Elmo as a Puppy" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+            <img src="Elmo4.png" style="width:100%" alt="Elmo Relaxed" onclick="myFunction(this);">
+        </div>
+    </div>
+
+    <!-- The expanding image container -->
+    <div class="container">
+        <!-- Close the image -->
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+        <!-- Expanded image -->
+        <img id="expandedImg" style="width:100%">
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
