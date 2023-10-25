@@ -1,0 +1,161 @@
+img {
+    max-width: 100%;
+}
+main, header {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+p.red.big {
+    color: rgb(87, 0, 90);
+    font-weight: bold;
+    font-size: large;
+}
+p.red {
+    color: rgb(39, 46, 142);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+h1 {
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    border: none;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+a:link {
+    color: rgb(255, 18, 192); 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(0, 65, 131);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(228, 0, 99);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(0, 8, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+body {
+    background-color: lightblue;
+    font-size: small;
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  img {
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: rgb(148, 111, 140);
+      font-size: medium;
+      display: flex;
+    }
+    p.red.big {
+        font-weight: bolder;
+        color: rgb(1, 93, 78);
+        font-size: larger;
+    }
+    p.red {
+        color: rgb(70, 51, 75);
+    }
+    h1 {
+        color: rgb(88, 4, 46);
+    }
+    img {
+        width: 80%;
+    }
+    a:link {
+        color: rgb(75, 0, 68); 
+        background-color: transparent; 
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: rgb(44, 44, 44);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: rgb(0, 103, 228);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color: rgb(234, 234, 234);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: rgb(255, 255, 255);
+      font-size: large;
+      display: block;
+      font: wrap;
+    }
+    
+    h1 {
+        color: rgb(43, 43, 43);
+    }
+    p.red.big {
+        font-style: oblique;
+        color: rgb(59, 67, 66);
+        font-weight: bold;
+        font-size: x-large;
+    }
+    p.red {
+        color: rgb(148, 148, 148);
+    }
+    img {
+        width: 60%;
+    }
+    a:link {
+        color: rgb(0, 0, 0); 
+        background-color: transparent; 
+        text-decoration: none;
+      }
+      
+      a:visited {
+        color: rgb(44, 44, 44);
+        background-color: transparent;
+        text-decoration: none;
+      }
+      
+      a:hover {
+        color: rgb(228, 0, 99);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+      
+      a:active {
+        color: rgb(0, 8, 255);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+  }
