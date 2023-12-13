@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.8.0/lib/p5.js"></script>
+    <script src="sketch_b.js"></script>
+  </head>
+  <body>
+    <header>
+        <h1>Refining your Interface</h1>
+    </header>
+    <main>
+        <h2>Goal of this Exercise</h2>
+        <p class="red big">What am I trying to do</p>
+        <p class="red">I wanted to accomplish the following task in ML5.JS. Scenario: If an object is detected (in video) it prints the price on the label. If multiple objects are detected it is able to detect each object and calculate their given price and print the total on the label.</p>
+        <h2>Process</h2>
+        <p class="red big">Step One on Refining my Interface</p>
+        <p class="red">I wanted to know the difference between using cocossd and yolo so I followed a YouTube tutorial from "The Coding Train" <a href="https://youtu.be/QEzRxnuaZCk" target="_blank">Check it out here!</a> Here is the p5.js approach I took to having fun with this exercise.</p> <a href="https://editor.p5js.org/p5Zovie/sketches/bIoO9JwiX" target="_blank">Link to p5.js Editor Code</a>
+        <br>
+        <br>
+        <img src="Learning.png" alt="ml5.js: Object Detection with COCO-SSD" id="specialImage" width="50%">
+        <br>
+        <p class="red big">Step Two | Identifying Static Images</p>
+        <p class="red">I attempted to try to recognize objects in my camera using object detection with static images from the internet. Realizing that it only recognizes objects from the cocossd library I adapted to what objects it would identify and found them around the house for the next step."</p>
+        <img src="Step Two.png" alt="Using Object Detection on a Static Image" id="specialImage" width="50%">
+        <br>
+        <p class="red big">Step Three | Identifying Objects in Video</p>
+        <p class="red">I wanted objects to be recognized in video, and not just static images. I found the list of recognizable objects on ML5 and scoured the house to see if it would detect the correct objects on P5.JS. The following in an example of a keyboard."</p>
+        <img src="Step Three.png" alt="Using Object Detection using Video" id="specialImage" width="50%">
+        <br>
+        <p class="red big">Step Four | Identifying Objects in Video and Labeling their Total</p>
+        <p class="red">I didn't just want to have the object detected labeled correctly. I wanted it to be associated with a price. I gave each object a price. The following coffee mug I gave a price of $25 and wanted it to return that price in the label when identified."</p>
+        <img src="Cup.png" alt="Cup is detected as well as the price" id="specialImage" width="50%">
+        <br>
+        <p class="red big">Step Five | The Next Object | A Cell Phone</p>
+        <p class="red">The following image of the cell phone I gave a price of $400 and wanted it to return that price in the label when identified. If any other objects had been identified beforehand I wanted it to add that price to the total in the label."</p>
+        <img src="Cellphone.png" alt="Cell Phone is detected as well as the price" id="specialImage" width="50%">
+        <br>
+        <p class="red big">Step Six | The Next Object | A Remote</p>
+        <p class="red">The following image of the remote I gave a price of $50 and wanted it to return that price in the label when identified. If any other objects had been identified beforehand I wanted it to add that price to the total in the label."</p>
+        <img src="Remote.png" alt="Remote is detected as well as the price" id="specialImage" width="50%">
+        <p class="red big">Video of the Sumation of all Detect Objects</p>
+        <p class="red">Created a video on Loom of all the objects being detected and added up in the total upon detection! <a href="https://www.loom.com/share/16409f5e85dd4723bfe091a71c519d76?sid=e2b1bc50-4315-45d0-a448-21caa3de0604" target="_blank">Check it out here!</a></p>
+        <br>
+    </main>
+  </body>
+</html>
